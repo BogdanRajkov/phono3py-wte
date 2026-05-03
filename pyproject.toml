@@ -10,7 +10,7 @@ readme = "README.md"
 license = "BSD-3-Clause"
 license-files = ["LICENSE"]
 authors = [
-    { name = "Atsushi Togo", email = "atz.togo@gmail.com" },
+    { name = "Michele Simoncelli", email = "michele.simoncelli@gmail.com" },
 ]
 requires-python = ">=3.10"
 classifiers = [
@@ -34,8 +34,8 @@ dependencies = [
 test = ["pytest"]
 
 [project.urls]
-Homepage = "https://github.com/atztogo/phono3py-wte"
-Repository = "https://github.com/atztogo/phono3py-wte"
+Homepage = "https://github.com/MSimoncelli/phono3py-wte"
+Repository = "https://github.com/MSimoncelli/phono3py-wte"
 
 [project.entry-points."phono3py.conductivity"]
 WTE = "wte:register"
