@@ -28,6 +28,7 @@ dependencies = [
     "numpy",
     "phonopy",
     "phono3py",
+    "pytest>=9.0.3",
 ]
 
 [project.optional-dependencies]
